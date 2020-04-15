@@ -1,0 +1,1507 @@
+body {
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bghome.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 2160px;
+    background-color: black;
+    margin: 0em;
+}
+
+#body02 {
+    background-size: cover;
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgaboutus.jpg");
+    background-repeat: no-repeat;
+    height:auto;
+    width: 100%;
+    color: white;
+    height: 1770px;
+    background-color: black;
+    margin: 0em;
+}
+
+
+#body03 {
+    background-size: cover;
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgtours.jpg");
+    background-repeat: no-repeat;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 3840px;
+    background-color: black;
+    margin: 0em;
+}
+
+
+#body04 {
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgcontact.jpg");
+    background-repeat: no-repeat;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 1800px;
+    background-color: black;
+    margin: 0em;
+}
+
+#body05 {
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgmaps.jpg");
+    background-repeat: no-repeat;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 2120px;
+    background-color: black;
+    margin: 0em;
+}
+
+#body06 {
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgbooknow.jpg");
+    background-repeat: no-repeat;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 1850px;
+    background-color: black;
+    margin: 0em;
+}
+
+
+#body07 {
+    position: absolute;
+    background-position: center top 0px left 0 right 0 bottom 0;
+    background: url("../images/bgthanks.jpg");
+    background-repeat: no-repeat;
+     height:auto;
+    width: 100%;
+    color: white;
+    height: 1850px;
+    background-color: black;
+    margin: 0em;
+}
+
+
+
+#eyes {position:relative;
+    display: block;
+   top: -160px;
+    background: url("../images/bg02.png");
+    background-repeat: no-repeat;
+   
+    background-blend-mode: lighten;
+    background-size: contain;
+    height: 895px;
+    width: auto;
+    opacity: .6;
+    animation-name: opacity;
+    animation-delay: initial;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+  
+ }
+
+ @keyframes opacity {
+     0% { opacity: 0%;}
+     100% { opacity: 60%;}
+ }
+
+
+ #button { 
+    width: 70px;
+    height: auto;
+     position: fixed;
+     right: 40px;
+     top: 410px;
+     bottom: 0px;
+     z-index: 999;
+     filter: drop-shadow(0px 0px 8px white);
+       
+ }
+
+
+
+#logo {
+    
+    position: relative;
+    z-index: 999;
+    float: left;
+    margin-top: 35px;
+    margin-left: 80px;
+  
+
+  }
+
+  #logo a {
+      position: fixed;
+  }
+
+#topnav {
+    z-index: 999;
+    margin: 0em;
+    float: right;
+    position: fixed;
+    right: 0;
+    top: -5px;
+}
+
+#topnav ul {
+    display: flex;
+    flex-direction: row;
+   
+    width: auto;
+    color: white;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 25px;
+    
+    cursor: pointer;
+}
+
+
+#topnav li {
+    margin: 0;
+    padding: 30px;
+    font-size: 16pt;
+    height: auto;
+    width: auto;
+    padding: auto;
+}
+
+#topnav a {
+    position: relative;
+    
+    opacity: 1;
+    color: white;
+    display: inline-block;
+    padding: 0em;
+    margin: 0;
+    height: 0;
+    text-decoration: none;
+    z-index: 999;
+   
+}
+
+
+
+
+
+.topnavheader {
+    width:100%;
+    height: 120px;
+    position:fixed;
+    top:0px;
+    z-index:999;
+}
+
+
+.topnavheader #background, .header
+{
+    position:absolute;
+    top:0px;
+    width:100%;
+    height:100%;
+}
+
+.topnavheader #background{
+    background-color:#4d000b;
+    display:none;
+}
+
+
+ 
+
+#titletext h1 {
+    display: block;
+    position: relative;
+ top: 70px;
+ left: 0px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
+   text-shadow: 0px 0px 5px white;
+   color: #c80000;
+
+}
+
+#titletext h2 {
+   
+    position: relative;
+    top: 80px;
+    left: 0px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+
+
+}
+
+#titletext {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    top: 220px;
+    z-index: 888;
+}
+ 
+#introtext {
+  position: absolute;
+    background-image:url("../images/p1.jpg");
+    background-repeat: no-repeat;
+    height: 303px;
+    width: 100%;
+    top: 810px;
+  
+}
+
+
+#introtext h3 {  
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 85px;
+    color: white;
+    
+}
+
+
+
+
+#socialmedia {
+  
+    position: relative;
+    top: 30px;
+    height: 80px;
+    width: 100%;
+    background-color: #0a0a0e;
+    z-index: 888;]
+   
+    }
+
+    #socialmedia ul {
+        
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0em;
+    
+         }
+
+         #socialmedia li {
+             margin-left: 15px;
+             margin-right: 15px;
+             position: relative;
+             display: block;
+            width: 80px; 
+         }  
+
+         #socialmedia i {
+             width: 40px;
+             height: 40px;
+         }
+
+    #socialmedia a {
+        justify-content: center;
+        
+        position: relative;
+        display: block;
+        padding: -40px;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+
+  
+
+i {
+    position: relative;
+    width: 100%;
+    font-size: 40px;
+    color: #ca0909;
+    margin:20px;
+   }
+
+#reviewstitle {
+    position: relative;
+    top: 30px;
+    z-index: 666;
+    height: 80px;
+    width: 100% ;
+    background-color: #4d000b;
+}
+
+#revpos {
+    position: relative ;
+    top: 30px;
+}
+#reviews {
+    
+    background-color: #0a0a0e;
+    position: relative top 0;
+    height: 760px;
+    justify-content: center;
+    width: 100%;
+    margin: 0em;
+    
+}
+
+
+#reviewstitle h2 {
+  
+  line-height: 80px;
+    text-align: center;
+      }
+
+
+#reviewscontent01 {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#reviewscontent01 img {
+   
+    margin-left: 0px;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    }
+
+    #revloc {
+
+        margin-top: 80px;
+    margin-left: 50px;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    }
+    
+
+#reviewscontent01 p{
+        justify-content: left;
+        margin: 50px;
+        font-size: 16pt;
+        top:-50px;
+        position: relative;
+               }
+
+               
+#reviewscontent01 .stars{
+    position: relative;
+    top:-30px;
+    justify-content: left;
+    margin-left: 30px;
+    
+           }
+
+
+#rev01text a {
+            position: relative;
+            top: -200px;
+            width: 67px;
+        
+        
+        }
+           
+ #rev01text p {
+            float: left;
+           margin-left: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 16pt;
+          }
+        
+ #rev01text h4 span {
+          color: #ca0909;}
+
+#rev01text img{
+    width: 120%;
+    position: relative;
+    margin-left: 50px;
+    top: 150px;
+}   
+
+#rev01text h4 {
+    position: relative;
+    float: left;
+    top: -110px;
+    left: 150px;
+    font-size: 18pt;
+    width: 40%;
+
+}
+
+
+
+    #revimg01 {
+    background-color: black;
+     height: 760px;
+     margin-left: 10px;
+     margin-right: 10px;
+     width: 330px;
+    }
+
+  
+    
+
+    #teamimg01 img {
+        height: auto;
+        width: 231px;
+        position: relative;
+        top: -80px;
+        left: -50px;
+    }
+    #teamimg01 a{
+        position: relative;
+        top: 80px;
+        left: 50px;
+        width: 231px;
+        height: 231px;
+        display: block;
+    }
+
+    
+
+#reviewscontent02 {
+
+   z-index: 888;
+    position: relative;
+    top: 290px;
+    
+    margin: 0em;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: auto;
+    width: 80%;
+}
+
+
+
+
+#review01 {
+  z-index: inherit;
+    margin-left: 190px;
+    width: 280px;
+    height: auto;
+}
+
+#review01 img {
+    margin-left: 20px;
+float: left; }
+
+
+
+#rev02text a {
+    width: auto;
+    position: relative;
+    display: block;
+    z-index: 999;
+}
+
+#rev03text a {
+    width: auto;
+    position: relative;
+    display: block;
+    z-index: 999;
+}
+
+
+#reviewscontent02 ul {
+    margin-top: 80px;
+    text-align: left;
+}
+
+
+
+.stars ul {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   margin-top: 80px;
+   margin-left: 16px;
+}
+
+.stars i {
+        margin: 4px;
+    font-size: 20pt;
+}
+
+#review02 {
+    position: relative;
+ left: 70px;
+    width: 290px;
+    height: auto;
+}
+
+#review02 img {
+    margin-left: 20px;
+    float: left;
+
+}
+
+
+#review03 {
+    position: relative;
+    left: 140px;
+    width: 280px;
+    height: auto;
+}
+
+#review03 img {
+    margin-left: 20px;
+    float: left; }
+
+
+
+
+#footer {
+      background-repeat: none;
+    background-size: auto;
+    position: absolute;
+    background-image: url("../images/footer.jpg");;
+     width: 100%;
+  height: 200px;
+  z-index: 555;
+       }
+
+  
+
+#footnav01 ul {
+
+    margin-top: 60px;
+    
+   justify-content: center;
+    display: flex;
+    flex-direction: row; 
+}
+
+#footnav01 ul li{ 
+   
+    font-size: 16pt;
+    margin: 0 150px 0 100px;
+    
+   }
+
+   #footernav a {
+    color: white;
+    text-decoration: none;
+       position: relative;
+    display: block;
+    z-index: 999;
+   }
+
+
+#footernav #bottomtext01 {
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    top: 60px;}
+
+    
+#footernav #bottomtext02 {
+   
+    margin: 20px;
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+}
+
+
+
+
+
+#introtext02 {
+    position: absolute;
+      background-image:url("../images/p1.jpg");
+      background-repeat: no-repeat;
+      height: 303px;
+      width: 100%;
+      top: 600px;
+    
+  }
+
+  
+#introtext02 h3 {  
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: 85px;
+    color: white;
+}
+
+
+
+#titletext02 h1 {
+     position: absolute;
+ top: 250px;
+ text-align: center;
+width: 100%;
+   color: white;
+
+}
+
+    
+#footer02 {
+    position: relative;
+    bottom: 0px;
+    background-repeat: none;
+  background-size: auto;
+  position: absolute;
+  background-image: url("../images/footer.jpg");;
+   width: 100%;
+height: 200px;
+z-index: 555;
+     }
+
+     #introtext02 {
+        position: absolute;
+          background-image:url("../images/p1.jpg");
+          background-repeat: no-repeat;
+          height: 303px;
+          width: 100%;
+          top: 600px;
+        
+      }
+      
+      
+      #introtext02 h3 {  
+          position: relative;
+          text-align: center;
+          height: 100%;
+          width: 100%;
+          top: 85px;
+          color: white;
+          
+      }
+
+      #teamtitle01 {
+        position: absolute;
+        top: 900px;
+        z-index: 666;
+        height: 80px;
+        width: 100% ;
+        background-color: #4d000b;
+    }
+      
+    #teamtitle01 h2 {
+  
+        line-height: 80px;
+          text-align: center;
+            }
+
+    #teamsection {
+       display: flex;
+    justify-content: center;
+    margin-top: 80px;
+            position: absolute;
+            top: 900px;
+            height: 600px;
+            width: 100%;
+            background-color:#0a0a0e;
+            }
+
+    
+
+    #teamimg02 {
+        display: flex;
+        flex-direction: column;
+        width: 294px;
+        margin-top: 80px;
+        margin-left: 40px;
+        margin-right: 40px;
+        position: relative;
+        display: block;
+        
+    }
+
+    #teamimg02 a {
+       width: 0px;
+       height: 0px;
+        display: block;
+    }
+
+    #teamsection p {
+
+        justify-content: center;
+        text-align: center;
+        font-size: 24pt;
+        top: 320px;
+        width: 294px;
+        height: 300px;
+         display: block;
+         position: relative;
+         color: #d00000;
+     }
+
+     
+    #teamsection span {
+       color: white;
+       font-style: italic;
+       font-size: 16pt;
+     }
+ 
+
+    #teamimg03 {
+        margin-top: 80px;
+        width: 294px;
+        margin-left: 40px;
+        margin-right: 40px;
+        position: relative;
+        display: block;
+    }
+
+    #teamimg03 a {
+       width: 0px;
+       height: 0px;
+        display: block;
+    }
+
+    #teamimg04 {
+        margin-top: 80px;
+        width: 294px;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: block;
+    }
+
+    #teamimg04 a {
+       width: 0px;
+       height: 0px;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #tourstitle01 {
+        position: absolute;
+        top: 600px;
+        z-index: 666;
+        height: 80px;
+        width: 100% ;
+        background-color: #4d000b;
+        margin-bottom: 80px;
+    }
+      
+    #tourstitle01 h2 {
+  
+        line-height: 80px;
+          text-align: center;
+            }
+
+    #locationsection {
+        
+        width: 100%;
+        position: relative;
+        top: 600px;
+       
+    }
+
+
+    #loc01 {
+        
+        margin-top: 80px;
+       
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    
+    #loc03 {
+        
+        margin-top: 80px;
+        top: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+
+
+
+    #locimg {
+       
+        border: solid #0a0a0e 6px;
+        height: 630px;
+        background-image: url("../images/loc01.jpg");
+        background-repeat: none;
+        display: flex;
+        width: 50%;
+            }
+
+            
+    #locimg02 {
+        border: solid #0a0a0e 6px;
+        height: 630px;
+        background-image: url("../images/loc02.jpg");
+        background-repeat: none;
+        display: flex;
+        width: 50%;
+            }
+
+            
+    #locimg03 {
+        border: solid #0a0a0e 6px;
+        height: 630px;
+        background-image: url("../images/loc03.jpg");
+        background-repeat: none;
+        display: flex;
+        width: 50%;
+            }
+
+            
+    #locimg04 {
+        border: solid #0a0a0e 6px;
+        height: 630px;
+        background-image: url("../images/loc04.jpg");
+        background-repeat: none;
+        display: flex;
+        width: 50%;
+            }
+
+
+
+#loc01 #thumbnails {
+    left: -3px;
+
+            }
+
+#loc02 #thumbnails {
+                left: -3px;
+            
+                        }
+
+                        
+#loc03 #thumbnails {
+    left: -3px;
+
+            }
+
+    #thumbnails {
+        
+        position: relative;
+      top: 420px;
+      left: 0
+      px;
+        width: 100%;
+        height: 224px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #thumbnails img {
+        border: solid #0a0a0e 3px;
+        width: auto;
+    }
+
+    
+
+    #locimg img {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    #locimg02 img {
+        width: 100%;
+        bottom: 0px;
+    }
+
+    
+    #locimg03 img {
+        width: 100%;
+        bottom: 0px;
+    }
+    
+        
+    #locimg04 img {
+        width: 100%;
+        bottom: 0px;
+    }
+
+
+
+    #loctext {
+        width: 50%;
+        margin-left: 80px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+   
+    #loctext p {
+        
+        font-size: 20pt;
+        width: 75%;       
+        margin-top: 0px;
+    }
+    #loctext h2 {
+        position: relative;
+        top: -20px;
+        color: #d00000;
+    }
+#loctext span{
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    bottom: 0px;
+}
+
+#loctext span a{
+    color: white;
+}
+
+#loctext img {
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#loctext a {
+    height: 0px;
+    width: 0px;
+}
+
+
+
+#loc02 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#loc02 #loctext img {
+   position: relative;
+   top: -20px;
+}
+
+#socialmedia02 {
+  
+    position: absolute;
+    top: 3550px;
+    width: 100%;
+    
+
+   
+    }
+
+
+
+
+
+
+
+    #titletext03 {
+        position: absolute;
+ top: 250px;
+ text-align: center;
+width: 100%;
+   color: white;
+    }
+
+    
+    #titletext03 h2 {
+        margin: 20px;
+        font-size: 30pt;
+    }
+
+    #contactsection {
+       
+        display: flex;
+             height: 1100px;
+            width: 100%;
+            height: 680px;
+            position: relative;
+            top: 680px;
+        }
+    
+    #conform  {
+        
+        position: relative;
+        width: 50%;
+        height: 680px;
+        height: auto;
+    }
+
+    #form01 {
+        margin-left: 80px;
+        margin-right: 80px;
+
+           }
+
+    label, textarea {
+        color:white;
+        margin-bottom: 20px;
+        display: block;
+       width: 100%;
+       font-size: 24pt;
+       
+    }
+input :focus{
+    outline: 3px;
+    color: #0a0a0e;
+    box-shadow: 0 0 0 2px orange;
+
+}
+#formelements input {
+   text-align: left;
+    height: 40pt;
+    font-size: 24pt;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: white;
+    padding-left: 10px;
+    background-color: #530512;
+   }
+
+
+
+  
+   #formelements select {
+   border: 0px;
+    height: 40pt;
+    font-size: 24pt;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    color: white;
+    padding-left: 10px;
+    background-color: #530512;
+    
+    text-align-last:center;
+   }
+
+  
+
+#formelements textarea {
+    
+    height: 150pt;
+    padding-left: 10px;
+    
+   }
+   
+textarea {
+    color: white;
+    background-color: #530512;
+}
+    #submitbutton {
+        margin-top: 20px;
+        border: none;
+        max-width: 50%;
+        float: right;
+             
+    }
+
+                  
+    #conimg{
+        
+        text-align: center;
+        background-image: url("../images/contactimg01.jpg");
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0px;
+        width: 590px;
+        height: 600px;
+        margin-right: 80px;
+        margin-top: 50px;
+    }
+
+    #conimg h3 {
+position: relative;
+top: 60px;
+font-size: 24pt;
+line-height: 30pt;
+    }
+
+    #conimg h4 {
+        position: relative;
+        top: 120px;
+    font-size: 20pt;
+    }
+
+    #socialmedia03 {
+        position: relative;
+        float: right;
+        top: 430px;
+        left: -40px;
+        width: 30%;
+        margin: 0em;
+    }
+
+    #socialmedia04 {
+  
+        position: relative;
+        top: -50px;
+        height: 80px;
+        width: 100%;
+       
+        z-index: 888;]
+       
+       
+        }
+    
+        #socialmedia04 ul {
+            
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 0em;
+        
+             }
+    
+             #socialmedia04 li {
+                 margin-left: 5px;
+                 margin-right: 5px;
+                 position: relative;
+                 display: block;
+                width: 80px; 
+             }  
+    
+             #socialmedia04 i {
+                 width: 40px;
+                 height: 40px;
+             }
+    
+        #socialmedia04 a {
+            justify-content: center;
+            
+            position: relative;
+            display: block;
+            padding: -40px;
+            margin: 0;
+            width: auto;
+            height: auto;
+        }
+
+
+
+
+
+
+
+
+       #mapsection {
+           top: 900px;
+           background-image: url("../images/map.jpg");
+           background-repeat: none;
+           position: relative;
+           height: 1020px;
+           width: 100%;
+       }
+
+       #mapimgpos01{
+           position: absolute;
+           left: 750px;
+           top: 500px;
+       }
+       
+       #mapimgpos02{
+        position: absolute;
+        left: 950px;
+        top: 250px;
+    }
+
+    #mapimgpos03{
+        position: absolute;
+        left: 450px;
+        top: 350px;
+    }
+
+    #mapimgpos04{
+        position: absolute;
+        left: 550px;
+        top: 200px;
+    }
+
+    #mapimgpos05{
+        position: absolute;
+        left: 300px;
+        top: 700px;
+    }
+
+    .mapimg01 a:hover {
+        animation: scale 2s ease-in-out infinite alternate;
+        
+    }
+
+    @keyframes scale {
+      0% { opacity: .2;}  
+    
+
+    100% { opacity: 1;}
+}
+
+
+
+
+#booknowsection {
+    margin-top: 80px;
+justify-content: center;
+             height: 1100px;
+            width: 100%;
+            height: 680px;
+            position: relative;
+            top: 680px;
+}
+
+#form02 {
+    margin-left: 30%;
+    margin-right: 30%;
+   text-align: center;
+   width: 40%;
+
+       }
+
+#form02 h2{
+        margin-left: 20%;
+        margin-right: 20%;
+       text-align: center;
+       width: 60%; 
+}
+
+#form02 img {
+ width: 40%;
+   text-align: center;
+
+}
+
+#bookbox {
+    margin: 40px;
+}
+
+#socialmedia05 {
+  
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    
+  
+    }
+
+    #form02 input {
+        text-align: center;
+       
+           }
+
+
+
+#thankstext {
+    position: absolute;
+    top: 20px;
+    z-index: 666;
+    height: 80px;
+    width: 100% ;
+    
+    margin-bottom: 80px;
+}
+  
+#thankstext h2 {
+height: 500px;
+    line-height: 80px;
+      text-align: center;
+        }
+
+        #titletext04 {
+            position: absolute;
+     top: 250px;
+     text-align: center;
+    width: 100%;
+       color: #c80000;
+        }
+          
+
+        #thankstext02 {
+            
+        
+            position: absolute;
+            top: 150px;
+            z-index: 666;
+            height: 80px;
+            width: 100% ;
+            text-align: center;
+            color: #c80000;
+            
+            margin-bottom: 80px;
+        }
+
+     
+          
+                 
+          
+          #thanksimg {
+              top: 320px;
+              left: 80px;
+              position: relative;
+              width: 100%;
+              margin-left: 25%;
+              margin-right: 25%;
+          }
+          
+          #thanksimg { 
+              width: 200px;
+              height:auto; } 
+          
+          
+              .row > .column {
+                padding: 0 8px;
+              }
+              
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+              
+              /* Create four equal columns that floats next to eachother */
+              .column {
+                float: left;
+                width: 25%;
+              }
+              
+              /* The Modal (background) */
+              .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: black;
+              }
+              
+              /* Modal Content */
+              .modal-content {
+                position: relative;
+                background-color: #fefefe;
+                margin: auto;
+                padding: 0;
+                width: 90%;
+                max-width: 1200px;
+              }
+              
+              /* The Close Button */
+              .close {
+                color: white;
+                position: absolute;
+                top: 10px;
+                right: 25px;
+                font-size: 35px;
+                font-weight: bold;
+              }
+              
+              .close:hover,
+              .close:focus {
+                color: #999;
+                text-decoration: none;
+                cursor: pointer;
+              }
+              
+              /* Hide the slides by default */
+              .mySlides {
+                display: none;
+              }
+              
+              /* Next & previous buttons */
+              .prev,
+              .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+              }
+              
+              /* Position the "next button" to the right */
+              .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+              }
+              
+              /* On hover, add a black background color with a little bit see-through */
+              .prev:hover,
+              .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              
+              /* Number text (1/3 etc) */
+              .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+              }
+              
+              /* Caption text */
+              .caption-container {
+                text-align: center;
+                background-color: black;
+                padding: 2px 16px;
+                color: white;
+              }
+              
+              img.demo {
+                opacity: 0.6;
+              }
+              
+              .active,
+              .demo:hover {
+                opacity: 1;
+              }
+              
+              img.hover-shadow {
+                transition: 0.3s;
+              }
+              
+              .hover-shadow:hover {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              }
+              
